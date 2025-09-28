@@ -1,0 +1,57 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="EIMzqZ5_6RPfuDBA4trU">
+    <mxGraphModel dx="1028" dy="659" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EX9oZeLQhqcrbUXv_KZ9-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EX9oZeLQhqcrbUXv_KZ9-1" target="EX9oZeLQhqcrbUXv_KZ9-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX9oZeLQhqcrbUXv_KZ9-1" value="&lt;b&gt;Respiratory Sound and Symptom Data&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="305" y="154" width="216" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv2zNoiqbQLgEAEy4R4O-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EX9oZeLQhqcrbUXv_KZ9-2" target="V0CrtsCJEtwC1WbW0342-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EX9oZeLQhqcrbUXv_KZ9-2" value="&lt;span&gt;Preprocessing of sound sample&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="322" y="229" width="182" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv2zNoiqbQLgEAEy4R4O-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V0CrtsCJEtwC1WbW0342-5" target="Tv2zNoiqbQLgEAEy4R4O-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V0CrtsCJEtwC1WbW0342-5" value="&lt;b&gt;Feature Extaction&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="309" width="118" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="V0CrtsCJEtwC1WbW0342-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V0CrtsCJEtwC1WbW0342-6" target="V0CrtsCJEtwC1WbW0342-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="411.5" y="498" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V0CrtsCJEtwC1WbW0342-6" value="&lt;b&gt;ML Algorithm&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="465" width="106" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="V0CrtsCJEtwC1WbW0342-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V0CrtsCJEtwC1WbW0342-9" target="V0CrtsCJEtwC1WbW0342-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V0CrtsCJEtwC1WbW0342-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V0CrtsCJEtwC1WbW0342-9" target="V0CrtsCJEtwC1WbW0342-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V0CrtsCJEtwC1WbW0342-9" value="&lt;b&gt;Detection of Asthma&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="335.5" y="558" width="155" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="V0CrtsCJEtwC1WbW0342-19" value="&lt;b&gt;Asthmatic&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="287" y="702" width="86" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="V0CrtsCJEtwC1WbW0342-20" value="&lt;b&gt;Non-Asthmatic&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="448" y="702" width="93" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv2zNoiqbQLgEAEy4R4O-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tv2zNoiqbQLgEAEy4R4O-1" target="V0CrtsCJEtwC1WbW0342-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv2zNoiqbQLgEAEy4R4O-1" value="&lt;b&gt;Training / Validation / Testing&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="386" width="178" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
